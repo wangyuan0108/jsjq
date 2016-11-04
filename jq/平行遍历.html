@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>平行遍历</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+            border: 5px solid orange;
+            margin: 10px;
+            padding: 10px;
+        }
+        span{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        父元素
+        <section>你瞅啥？</section>
+        <span>瞅你咋的？</span>
+        <p>在瞅一个试试！</p>
+        <main>试试就试试！</main>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            //siblings()找到指定元素的所有同胞元素，但不包括本身
+            $('section').siblings().css({'border-color':'black','color':'black'})
+
+            //siblings(selector)找到所有同胞中符合selector的元素
+             $('section').siblings('p').css({'border-color':'red','color':'red'})
+
+            //next()找到指定元素的下一个同胞元素
+             $('section').next().css({'border-color':'purple','color':'purple'})
+
+            //nextAll()返回指定元素的之后的所有同胞元素
+             $('section').nextAll().css({'border-color':'pink','color':'pink'})
+
+            //nextUntil()获取指定元素之后的第一个同胞元素开始到某一个同胞元素为止的一些元素
+            $('section').nextUntil('p').css({'border-color':'green','color':'green'})
+        })
+    </script>
+</body>
+</html>

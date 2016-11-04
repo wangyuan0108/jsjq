@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>试验</title>
+    <script src="js/angular.min.js"></script>
+</head>
+<body >
+<h1>WrongWay</h1>
+<img src="{{imgSrc}}"/>
+<h1>Rightway</h1>
+<img ng-src="{{imgSrc}}"/>
+<script>
+    angular.module('myApp', [])
+            .run(function($rootScope, $timeout) {
+                $timeout(function() {
+                    $rootScope.imgSrc = '../百度/images/main2_03.png';
+                }, 1000);
+            });
+</script>
+
+</body>
+</html>

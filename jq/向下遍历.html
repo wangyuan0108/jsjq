@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>向下遍历</title>
+    <script src="jQuery.js"></script>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+            border: 3px solid orange;
+            margin: 10px;
+            padding: 10px;
+        }
+        ul li{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+这是main他爹
+<main id='con'>
+    这是div他爹
+    <div>
+        这是ul他爹
+        <ul>
+            这是li他爹
+            <li>
+                这是p他爹
+                <p>你瞅啥？</p>
+            </li>
+            <li id="li2">
+                <p>瞅你咋的？</p>
+            </li>
+        </ul>
+    </div>
+</main>
+
+<script type="text/javascript">
+    $(function(){
+        //children()获取指定的直接子元素，可以带参数，获取指定元素的符合参数的直接子元素，
+        $('#con').children().css({'border-color':'green','color':'green'})
+
+        //$('ul').children('#li2').css({'border-color':'red','color':'red'})
+
+        //find('*')找到指定元素的所有的后代元素
+        $('div').find('*').css({'border-color':'blue','color':'blue'})
+
+        //find(selector)找到所有符合selector的子元素
+        $('div').find('li').css({'border-color':'black','color':'black'})
+
+    })
+</script>
+</body>
+</html>

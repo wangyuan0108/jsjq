@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>向上遍历</title>
+    <script src="js/jQuery.js"></script>
+</head>
+<body>
+    这是main他爹
+    <main>
+        这是div他爹
+        <div>
+            这是p他爹
+            <p>你瞅啥</p>
+            <p>瞅你咋地？</p>
+        </div>
+    </main>
+    <script type="text/javascript">
+        $(function(){
+            //parent()获取指定元素的父元素
+            //$('p').parent().css('border','2px solid red')
+            //parents()获取指定的元素的所有上层元素，即所有的父元素
+            //$('p').parents().css('border','1px solid red')
+            //parents()可以添加参数，找到指定的父元素
+            //$('p').parents('main').css('border','1px solid red')
+            //parentsUntil()获取指定元素和给定元素（不包含指定元素）之间的所有父元素
+            $('p').parentsUntil('main').css('border','1px solid red')
+        })
+    </script>
+</body>
+</html>

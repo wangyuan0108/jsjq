@@ -1,0 +1,56 @@
+可选参数：
+名称	             类型	           默认值	                描述
+offset	        integer or string	    150	            当对象滑动进入屏幕之前距离屏幕底部的距离，例如：10%。
+opacity 	        integer (0-100) 	0	            当对象滑动进入屏幕之前的透明度。
+perspective	        integer	            1000	        对象的3D perspective，单位像素。
+transformOrigin	    string	           50% 50%	        对象transform的Origin,单位像素、百分比或默认关键字(left, right, top or bottom)
+skewY	            angle	            none	        沿Y轴的2D倾斜度。
+move	            string	            none	        沿X轴和Y轴2D移动的距离，例如：100px,50%。
+move3d	            string	            none	        沿X轴、Y轴和Z轴3D移动的距离，例如：10px,10px,10px。
+moveX	            string	            none	        沿X轴移动对象，例如：10px or 10%
+moveY	            string	            none	        沿Y轴移动对象，例如：10px or 10%
+moveZ	            string	            none	        沿Z轴移动对象，例如：10px or 10%
+rotate	            string	            none	        2D旋转，例如：90deg
+rotate3d	        string        	    none	        沿X轴、Y轴和Z轴的3D旋转，例如：1,1,1,90deg
+rotateX	            string	            none	        沿X轴的3D旋转，例如：90deg
+rotateY	            string	            none	        沿Y轴的3D旋转，例如：90deg
+rotateZ	            string	            none	        沿Z轴的3D旋转，例如：90deg
+scale	        decimal or string	    none	        X轴和Y轴方向上的2D缩放 (x,y)，例如2.5或2,0.5
+scale3d	            string	            none	        沿X轴、Y轴和Z轴方向上的3D缩放 (x,y,z)，例如：2,3,0.5
+scaleX	            decimal         	none	        X轴方向上的缩放。
+scaleY	            decimal         	none	        Y轴方向上的缩放。
+skew	            angle	            none	        沿X轴和Y轴方向上的2D倾斜，例如：90deg,90deg
+skewX	            angle	            none	        沿X轴方向上的2D倾斜。
+skewY	            angle	            none	        沿Y轴方向上的2D倾斜。
+
+
+
+激活smoovejs如下：
+
+$('.foo').smoove(option);
+
+其中，添加滚动特效的方式有两种：
+
+1. 在标签内使用data-*属性来添加
+2. 在脚本中通过`$('.foo').smoove(option)`来添加
+
+1.
+<div class='foo' data-move-x='100px' data-move-y='100px'>data-*方法</div>
+<script>
+    $('.foo').smoove({offset:'40%'});//在40%触发
+</script>
+
+2.
+<div class="foo">脚本触发</div>
+<script>
+    $('.foo').smoove({
+        offset:'40%',
+        moveX:'100px',
+        moveY:'100px'
+    });
+</script>
+
+这里需要注意两点：
+
+1. 使用`$('.foo').smoove(option)`的优先级要高于使用data-*的优先级。
+2. 对于data属性要使用驼峰命名

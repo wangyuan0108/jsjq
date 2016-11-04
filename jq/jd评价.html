@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jQuery.js"></script>
+    <style>
+        .div1 {
+            background: red;
+            width: 500px;
+            height: 2000px;
+            margin: 50px auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .div2 {
+            background: green;
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2"></div>
+    </div>
+<script>
+    $(function () {
+        alert( $('div2').offset().top())
+    })
+</script>
+</body>
+</html>
