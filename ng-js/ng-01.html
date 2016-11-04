@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
     <title>试验</title>
     <script src="js/angular.min.js"></script>
+    <style>
+        .red {
+            background-color: red;
+        }
+    </style>
 </head>
-<body >
-<h1>WrongWay</h1>
-<img src="{{imgSrc}}"/>
-<h1>Rightway</h1>
-<img ng-src="{{imgSrc}}"/>
+<svg>
+    <circle ng-attr-cx="{{ cx }}"></circle>
+</svg>
 <script>
-    angular.module('myApp', [])
-            .run(function($rootScope, $timeout) {
-                $timeout(function() {
-                    $rootScope.imgSrc = '../百度/images/main2_03.png';
-                }, 1000);
-            });
+
 </script>
 
 </body>
