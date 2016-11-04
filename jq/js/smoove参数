@@ -53,4 +53,4 @@ $('.foo').smoove(option);
 这里需要注意两点：
 
 1. 使用`$('.foo').smoove(option)`的优先级要高于使用data-*的优先级。
-2. 对于data属性要使用驼峰命名
+2. 对于data属性要使用驼峰命名。
