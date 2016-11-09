@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    color: #666;
+    font: 12px/150% Arial, Verdana,"微软雅黑";
+}
+input[type="text"] {
+    padding-left: 10px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+em {
+    color: red;
+    margin-right: 3px;
+}
+.top2 a,.top3 a {
+    color: #666;
+    padding: 0 8px;
+}
+.header {
+    background: #f1f1f1;
+    line-height: 30px;
+    width: 100%;
+}
+.top {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 30px;
+    padding-right: 40px;
+}
+.list_down {
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 30px;
+    width: 313px;
+    padding: 10px;
+    display: none;
+    border-top: none;
+    background: #fff;
+    z-index: 10000;
+}
+.list_down li {
+    float: left;
+    margin: 0 10px;
+    text-align: left;
+}
+.list_nmg {
+    transform: translateX(-10px);
+}
+.list_down li a {
+    padding: 5px 8px;
+}
+.list_down li a:hover {
+    background: #f1f1f1;
+    color: red;
+}
+.top_left {
+    float: left;
+}
+.top_left ul li {
+    cursor: default;
+}
+.top_right {
+    float: right;
+}
+.m-loginbar:hover {
+    color: red;
+}
+.top_right ul li {
+    float: left;
+    padding: 0 10px;
+}
+.m_color {
+    color: red;
+}
+.m_address a {
+    padding: 0 10px;
+}
+.m_address:hover {
+    background: #fff;
+}
+.top2 {
+    width: 995px;
+    margin: 0 auto;
+    height: 145px;
+}
+.logo {
+    float: left;
+    position: relative;
+}
+.logo img {
+    position: absolute;
+    top: 25px;
+    left: -125px;
+    border-radius: 5px;
+}
+.main {
+    background: #e45050;
+}
+.m-main {
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+}
+.m-main dl {
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.m-main dl span {
+    font-size: 25px;
+    color: #fff;
+}
+.m-main dd {
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #ffb2b2;
+    border-radius: 15px;
+}
+.pay a {
+    color: red;
+    text-decoration: underline;
+}
+.m-main dd a {
+    display: inline-block;
+    color: #ffb2b2;
+    padding: 5px 10px ;
+}
+.m-main dd:hover {
+    background: #fff;
+}
+.m-main dd:hover a {
+    color: #e45050;
+}
+.m-main ul {
+    line-height: 80px;
+}
+.m-main ul li {
+    float: left;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+.m-main ul li span {
+    transition: all 2s ;
+    display:inline-block;
+}
+.m-main ul li:hover span {
+    transform:rotate(360deg);
+}
+.m-main ul li a {
+    color: #fff;
+}
+.m-main-left li:hover a {
+    text-decoration: underline;
+}
+.down-list ul {
+    position: absolute;
+    top: 50px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding:0 5px;
+    display: none;
+
+}
+.down-list ul li {
+    float: none;
+    line-height: 30px;
+    margin: 0;
+}
+.down-list ul li a {
+    color: #0f0f0f;
+}
+.down-list li:hover a {
+    color: red;
+}
+.content {
+    width: 100%;
+    background: #f5f5f5;
+}
+.down-list:hover li a {
+    text-decoration: none;
+}
+.content-main {
+    width: 1230px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content-side {
+    float: left;
+    width: 115px;
+}
+.content-side dt {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.content-side dd {
+    padding: 10px 0;
+}
+.content-side a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.content-right {
+    float: left;
+    width: 1085px;
+    background:#fff;
+    margin-top: 20px;
+}
+.right-title ul {
+    overflow: hidden;
+    padding: 20px;
+}
+.right-title li {
+    float: left;
+    padding: 0 20px;
+}
+.right-title li a {
+    font-size: 14px;
+    font-weight: 700;
+}
+.right-title li:first-child {
+    font-weight: 700;
+}
+/*.right-title li:first-child a {*/
+    /*color: red;*/
+    /*padding-bottom: 3px;*/
+   /*border-bottom: 2px solid red;*/
+/*}*/
+.m-color {
+    color: red;
+    padding-bottom: 3px;
+    border-bottom: 2px solid red;
+}
+.right-main {
+    position: relative;
+    width: 500px;
+   height: 630px;
+}
+.main-side-left {
+    width: 500px;
+}
+.label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 6px 0;
+}
+.box {
+    overflow: hidden;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.fl {
+    float:left;
+}
+.text {
+    border: 1px solid #ccc;
+    height: 18px;
+    width: 127px;
+    padding: 5px 23px 5px 5px;
+}
+select {
+    width: 70px;
+    padding: 5px;
+}
+option {
+    padding-left: 5px;
+}
+.in-list {
+    width: 395px;
+}
+.list li {
+    float:left;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #cfcfcf;
+    padding: 8px 9px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.btn {
+    border: 1px solid #bfd6af;
+    padding: 5px 10px;
+    background-image: linear-gradient(to bottom,#f6fbf3 0,#eef7e8 100%);
+    margin-left: 100px;
+}
+.btn2 {
+    border: 1px solid #bfd6af;
+    padding: 5px 10px;
+    background-image: linear-gradient(to bottom,#f6fbf3 0,#eef7e8 100%);
+    margin-top: 10px;
+    display: inline-block;
+}
+.m-box2 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    display: none;
+}
+img {
+    display: block;
+    float: left;
+}
+.big-img {
+    width: 300px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding: 50px 0 50px 130px;
+    background: #f9f9f9;
+    margin: 10px 0;
+}
+.min-img ul {
+    width: 450px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.min-img li {
+    float:left;
+    margin: 3px;
+    position:relative;
+    cursor: pointer;
+}
+.min-img li img {
+    display: block;
+}
+.b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: url("../images/bg-img/face.png");
+}
+.m-box3{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    display: none;
+}
+.copyright {
+    width: 100%;
+    margin-top: 10px;
+}
+.copyright_content {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.copyright_content ul {
+    width: 890px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.copyright_content li {
+    float: left;
+}
+.copyright_content a {
+    border-right: 1px solid #ccc;
+    padding: 0 9px;
+}
+.copyright_content a:hover {
+    color: red;
+}
+.br a {
+    border: none;
+}
+.footer {
+    clear: left;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}

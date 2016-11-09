@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    color: #666;
+    font: 12px/150% Arial, Verdana,"微软雅黑";
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+.top2 a,.top3 a {
+    color: #666;
+    padding: 0 8px;
+}
+.header {
+    background: #f1f1f1;
+    line-height: 30px;
+    width: 100%;
+}
+.top {
+    width: 995px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 30px;
+}
+.list_down {
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 30px;
+    width: 313px;
+    padding: 10px;
+    display: none;
+    border-top: none;
+    background: #fff;
+    z-index: 10000;
+}
+.list_down li {
+    float: left;
+    margin: 0 10px;
+    text-align: left;
+}
+.list_nmg {
+    transform: translateX(-10px);
+}
+.list_down li a {
+    padding: 5px 8px;
+}
+.list_down li a:hover {
+    background: #f1f1f1;
+    color: red;
+}
+.top_left {
+    float: left;
+}
+.top_left ul li {
+    cursor: default;
+}
+.top_right {
+    float: right;
+}
+.m-loginbar:hover {
+    color: red;
+}
+.top_right ul li {
+    float: left;
+    padding: 0 10px;
+}
+.m_address a {
+    padding: 0 10px;
+}
+.m_address:hover {
+    background: #fff;
+}
+.top2 {
+    width: 995px;
+    margin: 0 auto;
+    height: 145px;
+}
+.logo {
+    float: left;
+    position: relative;
+}
+.logo img {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    border-radius: 5px;
+}
+.main {
+    background: #e45050;
+}
+.m-main {
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+}
+.m-main dl {
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.m-main dl span {
+    font-size: 25px;
+    color: #fff;
+}
+.m-main dd {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    border: 1px solid #ffb2b2;
+    border-radius: 15px;
+}
+.pay a {
+    color: red;
+    text-decoration: underline;
+}
+.m-main dd a {
+    display: inline-block;
+    color: #ffb2b2;
+    padding: 5px 10px ;
+}
+.m-main dd:hover {
+    background: #fff;
+}
+.m-main dd:hover a {
+    color: #e45050;
+}
+.m-main ul {
+    line-height: 80px;
+}
+.m-main ul li {
+    float: left;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+.m-main ul li span {
+    transition: all 2s ;
+    display:inline-block;
+}
+.m-main ul li:hover span {
+    transform:rotate(360deg);
+}
+.m-main ul li a {
+    color: #fff;
+}
+.m-main-left li:hover a {
+    text-decoration: underline;
+}
+.down-list ul {
+    position: absolute;
+    top: 50px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    padding: 0 5px;
+
+}
+.down-list ul li {
+    float: none;
+    line-height: 30px;
+    margin: 0;
+}
+.down-list ul li a {
+    color: #0f0f0f;
+}
+.down-list li:hover a {
+    color: red;
+}
+.content {
+    width: 100%;
+    background: #f5f5f5;
+}
+.down-list:hover li a {
+    text-decoration: none;
+}
+.content-main {
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content-side {
+    float: left;
+    width: 115px;
+}
+.content-side dt {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.content-side dd {
+    padding: 10px 0;
+    font-size: 14px;
+}
+.side-color:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.content-right {
+    float: left;
+    width: 870px;
+    background: #fff;
+    margin: 40px 0;
+
+}
+.right-address {
+    width: 830px;
+    margin: 10px auto 0;
+}
+.address-title {
+    padding: 10px 0;
+}
+.address-title  a {
+    display:inline-block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    padding:0 14px;
+    font-weight: 700;
+    margin: 0 10px 0 0;
+    background-color: #f5fbef;
+    border-radius: 2px;
+    border: 1px solid #bfd6af ;
+    color: #333;
+
+}
+.title-color {
+    color: #999;
+}
+.address-title-color {
+    color: #71b247;
+}
+.address-content {
+    border: 1px solid #e6e6e6;
+    margin-top: 10px;
+
+}
+.address-content-title {
+    padding: 10px 0 0 10px;
+    overflow: hidden;
+}
+.address-content-title span {
+    padding: 0 10px;
+}
+.address-content-title h3 {
+    float: left;
+}
+.address-right {
+    float:right;
+   color: red;
+}
+.active-address {
+    color: #fff;
+    background: #ffaa45;
+    font-weight: normal;
+    padding: 5px 0 ;
+    display: inline-block;
+}
+.address-content-main {
+    padding: 10px 0;
+    overflow:hidden;
+}
+.address-content-main dt {
+    float: left;
+    width: 70px;
+    text-align: right;
+    color: #999;
+    padding: 5px 0;
+}
+.address-content-main dd {
+    width: 360px;
+    padding: 5px 0;
+}
+.f-pay{
+    float: right;
+    margin-right: 20px;
+}
+.f-pay a {
+    color: #005ea7 ;
+    padding: 0 10px;
+}
+.copyright {
+    width: 100%;
+    margin-top: 10px;
+}
+.copyright_content {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.copyright_content ul {
+    width: 890px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.copyright_content li {
+    float: left;
+}
+.copyright_content a {
+    border-right: 1px solid #ccc;
+    padding: 0 9px;
+}
+.copyright_content a:hover {
+    color: red;
+}
+.br a {
+    border: none;
+}
+.footer {
+    clear: left;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
