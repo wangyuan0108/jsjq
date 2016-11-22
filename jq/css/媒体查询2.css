@@ -1,0 +1,45 @@
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait){
+    html{font-size:81.5%}
+}
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait){
+    html{font-size:87.5%}
+}
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:landscape){
+    html{font-size:87.5%}
+}
+@media only screen and (min-device-width:320px) and (max-device-width:568px){
+    html{font-size:87.5%}
+}
+@media only screen and (min-device-width:375px) and (max-device-width:667px){
+    html{font-size:100%}
+}
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:landscape){
+    html{font-size:100%}
+}
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:portrait){
+    html{font-size:100%}
+}
+@media only screen and (min-device-width:414px) and (max-device-width:736px){
+    html{font-size:112.5%}
+}
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (orientation:landscape){
+    html{font-size:112.5%}
+}
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (orientation:portrait){
+    html{font-size:112.5%}
+}
+
+
+
+
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:portrait){
+    .other-room-all li span:nth-of-type(1){width:21%}
+    .other-room-all li span:nth-of-type(2){width:31%}
+    .other-room-all li span:nth-of-type(3){width:26%}
+    .other-room-all li span:last-child{width:22%}
+}
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (orientation:portrait){
+    .other-room-all li span:nth-of-type(1){width:21%}
+    .other-room-all li span:nth-of-type(2){width:32%}
+    .other-room-all li span:nth-of-type(3){width:26%}
+}

@@ -1,0 +1,122 @@
+/* iPhone 2G-4S in portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+
+    /* STYLES GO HERE */
+    html{
+        font-size: 81.5%;
+    }
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    /* STYLES GO HERE */
+    html{
+        font-size: 81.5%;
+    }
+}
+
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    /* STYLES GO HERE */
+    html{
+        font-size: 81.5%;
+    }
+}
+
+
+@mixin iphone4() {
+    @media only screen and (min-device-width:320px) and (max-device-width:480px){
+        /* STYLES GO HERE */
+        @content;
+    }
+}
+
+
+
+
+
+
+/* iPhone 5 & 5S in portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait) {
+
+    /* STYLES GO HERE */
+    html{
+        font-size: 87.5%;
+    }
+}
+
+/* iPhone 5 & 5S in landscape */
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:landscape) {
+
+    /* STYLES GO HERE */
+    html{
+        font-size: 87.5%;
+    }
+}
+
+/* iPhone 5 & 5S Media Queries
+iPhone 5 & 5S in portrait & landscape */
+@media only screen and (min-device-width:320px) and (max-device-width:568px) {
+
+    /* STYLES GO HERE */
+    html{
+        font-size: 87.5%;
+    }
+}
+
+
+
+
+
+/* iPhone 6 in portrait & landscape */
+@media only screen and (min-device-width:375px) and (max-device-width:667px) {
+    html{
+        font-size: 100%;
+    }
+    /* STYLES GO HERE */
+
+}
+
+/* iPhone 6 in landscape */
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:landscape) {
+    html{
+        font-size: 100%;
+    }
+    /* STYLES GO HERE */
+}
+
+/* iPhone 6 in portrait  */
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:portrait) {
+    html{
+        font-size: 100%;
+    }
+    /* STYLES GO HERE */
+}
+
+/* iPhone 6 Plus Media Queries */
+/* iPhone 6 Plus in portrait & landscape */
+@media only screen and (min-device-width:414px) and (max-device-width:736px) {
+    /* STYLES GO HERE */
+    html{
+        font-size: 112.5%;
+    }
+}
+
+/* iPhone 6 Plus in landscape */
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (orientation:landscape) {
+
+    /* STYLES GO HERE */
+    html{
+        font-size: 112.5%;
+    }
+}
+
+/* iPhone 6 Plus in portrait */
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (orientation:portrait) {
+
+    /* STYLES GO HERE */
+    html{
+        font-size: 112.5%;
+    }
+}
