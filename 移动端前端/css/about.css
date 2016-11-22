@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    position: relative;
+    height: 100%;
+    font-size:100px;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size:14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.wrap {
+    position: relative;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 1.05rem;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 0.01rem 0.08rem 0.05rem #e7e7e7;
+}
+.title-left {
+    width: 2.2rem;
+    margin-left: 0.24rem;
+}
+.title-right {
+    width: 0.62rem;
+    margin-right: 0.18rem;
+}
+.home {
+    width: 2.4rem;
+    background: #fff;
+    position: absolute;
+    top: 1.05rem;
+    right: 0;
+    z-index: 9999;
+    line-height: 0.60rem;
+    font-size: 0.29rem;
+    display: none;
+}
+.ul-list {
+    padding-left: 0.3rem;
+}
+.ul-list li a {
+    padding-left: 0.60rem;
+    color: #005a9f;
+}
+.ul-list li:nth-child(1) a {
+    background: url("../images/bg-img/home.png") no-repeat center left;
+}
+.ul-list li:nth-child(2) a {
+    background: url("../images/bg-img/fw.png") no-repeat center left;
+}
+.ul-list li:nth-child(3) a {
+    background: url("../images/bg-img/xm.png") no-repeat center left;
+}
+.ul-list li:nth-child(4) a {
+    background: url("../images/bg-img/hy.png") no-repeat center left;
+}
+.ul-list li:nth-child(5) a {
+    background: url("../images/bg-img/about.png") no-repeat center left;
+}
+.ul-list li:nth-child(6) a {
+    background: url("../images/bg-img/call-me.png") no-repeat center left;
+}
+.p {
+    line-height: 0.50rem;
+    margin: 0.26rem;
+    font-size: 0.29rem;
+}
+.footer {
+    background: url("../images/bg-img/footer.jpg");
+    height: 1.46rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer p {
+    line-height: 0.40rem;
+    color: #fff;
+    font-size: 0.22rem;
+}
