@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100px; }
+
+body {
+  background: url("../images/img2/61.png") no-repeat;
+  background-size: cover;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+header {
+  padding: 0.25rem 0.38rem;
+}
+header h1{
+  font-size: 0.40rem;
+  margin-left: 2.30rem;
+}
+.title {
+  display: flex;
+}
+.img62 {
+    width: 0.27rem;
+    height: 0.49rem;
+}
+.main p {
+  font-size: 0.40rem;
+  text-align: center;
+  font-weight: bold;
+  color: #7e4420;
+  border-top: 2px solid #e3d4b6;
+  border-bottom: 2px solid #e3d4b6;
+  height: 1.05rem;
+  line-height: 1.05rem;
+  background: #e8dcc3;
+}
+.yen {
+  color: #e62c2c;
+}
+.main02  {
+  font-size: 0.36rem;
+  height: 1.02rem;
+  line-height: 1.02rem;
+  padding: 0 0.9rem ;
+  border-bottom: 2px solid #e3d4b6;
+  background: #eae1d1;
+}
+.main0 {
+  font-size: 0.36rem;
+  height: 1.02rem;
+  line-height: 1.02rem;
+  padding: 0 0.9rem ;
+  background: #eae1d1;
+}
+.main03 {
+  font-size: 0.32rem;
+  margin-left: 0.9rem;
+  padding: 0.20rem 0;
+  border-top: 2px solid #e3d4b6;
+  height: 2rem;
+}
+.main03 span {
+  border: 2px solid #e3d4b6;
+  display: inline-block;
+  width: 2.20rem;
+  height: 0.80rem;
+  line-height: 0.80rem;
+  text-align: center;
+  font-weight: bold;
+}
+label {
+  font-size: 0.32rem;
+  display: inline-block;
+}
+label[for=username] {
+  margin-left: 1em;
+}
+input {
+  height: 0.70rem;
+  width: 4rem;
+  outline: none;
+  font-size: 0.40rem;
+}
+textarea {
+  height: 1.28rem;
+  margin-top: 0.20rem;
+  font-size: 0.30rem;
+  width: 4rem;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 2px solid #e3d4b6;
+  height: 1.17rem;
+  line-height: 1.17rem;
+}
+.footer h2 {
+  font-size: 0.40rem;
+  color: #e62c2c;
+}
+.footer a {
+  font-size: 0.40rem;
+  background: #7e4420;
+  padding: 0 0.55rem;
+  margin-left: 0.10rem;
+  color: #fff;
+  font-weight: bold;
+}
+li {
+  list-style: none;
+  height: 1.24rem;
+  border-bottom: 2px solid #e3d4b6;
+  padding-left: 0.90rem;
+}
+li:nth-child(1) label,li:nth-child(1) input,li:nth-child(2) label,li:nth-child(2) input  {
+  transform: translateY(-0.2rem);
+} {
+  transform: translateY(-0.2rem);
+}
+
+li:last-child {
+  height: 1.80rem;
+}
+li:last-child  label {
+  transform: translateY(-1rem);
+}
+.ac-pay {
+  background: #7e4420;
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/off.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/payOff.js"></script>
+</head>
+<body>
+<!--<div class="tc">-->
+    <!--<p>您的订单提交成功</p>-->
+    <!--<button>确定</button>-->
+<!--</div>-->
+    <div class="main">
+        <div class="box01">
+            <img src="images/img/payTitle.png"/>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="h1">
+                    <h1>订单确认</h1>
+                </div>
+                <div class="h2">
+                    <h2>订单信息</h2>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <label for="username"><span>*</span>收货人</label><input type="text" id="username" placeholder="请输入收货人姓名"/>
+                        </li>
+                        <li>
+                            <label for="phone"><span>*</span>手机号码</label><input type="text" id="phone" placeholder="请输入手机号"/>
+                        </li>
+                        <li>
+                            <label for="address"><span>*</span>收件地址</label><textarea id="address" placeholder="请输出详细地址信息"></textarea>
+                        </li>
+                    </ul>
+                </div>
+                <div class="h2">
+                    <h2>支付方式</h2>
+                </div>
+                <div class="payStep">
+                    <ul>
+                        <li><a ><img src="images/img/bg-img/63.png" />支付宝支付</a><a >货到付款</a></li>
+                    </ul>
+                </div>
+                <div class="h2">
+                    <h2>商品信息</h2>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th>商品</th>
+                            <th>商品名称</th>
+                            <th>周期</th>
+                            <th>数量</th>
+                            <th>价格</th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/img/64.png" height="66" width="113"/></td>
+                            <td>黑变白养白汤</td>
+                            <td>一周期</td>
+                            <td>1</td>
+                            <td><span>￥380.00</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="h2">
+                    <h2>结算信息</h2>
+                </div>
+                <div class="pay-for">
+                    <p>
+                        商品金额：380.00元  运费：0.00元
+                    </p>
+                </div>
+                <div class="yen">
+                    <h2>应付金额：<span>￥380.00</span></h2>
+                    <a href="#">提交订单</a>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>郑重声明：未经授权禁止转载、摘编、复制或建立镜像.如有违反，追究法律责任。</p>
+            <p>豫ICP备16010891号</p>
+        </footer>
+    </div>
+</body>
+</html>

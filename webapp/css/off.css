@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+body {
+  background: url("../images/img/bg-img/bg-index.jpg");
+  font-family: "Microsoft YaHei"; }
+
+.main {
+  width: 1200px;
+  margin: 0 auto; }
+  .main .box01 img {
+    display: block; }
+
+input[type=text] {
+  width: 325px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #e3d4b6;
+  font-size: 14px;
+  color: #b1abac;
+  padding-left: 10px; }
+
+textarea {
+  outline: none;
+  border: 1px solid #e3d4b6;
+  width: 487px;
+  height: 72px;
+  color: #b1abac;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 15px; }
+
+.form {
+  background: url("../images/img/bg-img/payOff-bg.png") no-repeat;
+  background-size: cover;
+  min-height: 1095px;
+  overflow: hidden;
+  padding: 0 45px; }
+  .form form .h1 {
+    height: 100px;
+    line-height: 100px; }
+  .form form .h2 {
+    border-bottom: 1px solid #bfa187;
+    padding-bottom: 15px; }
+  .form form div ul {
+    width: 950px;
+    margin: auto; }
+    .form form div ul li {
+      margin-bottom: 15px; }
+      .form form div ul li label {
+        display: block;
+        color: #333;
+        font-size: 16px;
+        line-height: 32px; }
+        .form form div ul li label span {
+          color: #e5403c;
+          margin-right: 3px; }
+
+.content {
+  margin: 30px 0; }
+
+.payStep ul {
+  overflow: hidden; }
+  .payStep ul li {
+    float: left; }
+    .payStep ul li a {
+      display: inline-block;
+      width: 140px;
+      height: 42px;
+      line-height: 40px;
+      border: 2px solid #e3d4b6;
+      text-align: center;
+      cursor: pointer;
+      margin-left: 20px;
+      margin-top: 30px; }
+      .payStep ul li a:hover {
+        border: 2px solid #814521 !important; }
+      .payStep ul li a img {
+        vertical-align: middle;
+        margin-right: 10px; }
+
+table {
+  width: 1012px;
+  margin: 0 auto;
+  border-collapse: collapse; }
+  table tr:nth-of-type(1) {
+    border-bottom: 1px solid #c0a38b; }
+  table th {
+    width: 135px;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 7px; }
+  table td {
+    width: 135px;
+    display: inline-block;
+    text-align: center;
+    height: 80px;
+    line-height: 80px; }
+    table td img {
+      vertical-align: middle; }
+    table td span {
+      color: #e5413d; }
+
+.pay-for p {
+  text-align: right;
+  width: 1012px;
+  margin: 0 auto;
+  border-bottom: 1px solid #c0a38b;
+  height: 67px;
+  line-height: 67px; }
+
+.yen {
+  text-align: right; }
+  .yen h2 {
+    width: 1012px;
+    margin: 0 auto;
+    padding: 30px 0; }
+    .yen h2 span {
+      color: #e5413d;
+      font-size: 34px; }
+  .yen a {
+    background: url("../images/img/bg-img/65.png");
+    width: 156px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 18px; }
+
+footer {
+  background: #eae1d1;
+  height: 80px;
+  line-height: 30px;
+  padding-top: 10px; }
+  footer p {
+    text-align: center; }
+
+.active {
+  border: 2px solid #814521 !important; }
+
+/*# sourceMappingURL=off.css.map */
+/*.tc {*/
+  /*border:1px solid red;*/
+  /*height:200px;*/
+  /*width:200px;*/
+  /*float:left;*/
+  /*position:fixed;*/
+  /*top:50%;*/
+  /*left:50%;*/
+  /*transform: translate(-50%,-50%);*/
+
+/*}*/
