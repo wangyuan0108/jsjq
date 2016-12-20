@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    position: relative;
+    height: 100%;
+    font-size:100px;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 0.14rem;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+li {
+    list-style: none;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    /*text-align: center;*/
+    font-size: 0.18rem;
+    background: #fff;
+    /* Center slide text vertically */
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    display: flex;
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    justify-content: flex-start;
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 1.05rem;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 0.01rem 0.08rem 0.05rem #e7e7e7;
+}
+.title-left {
+    width: 2.2rem;
+    margin-left: 0.24rem;
+}
+.title-right {
+    width: 0.62rem;
+    margin-right: 0.18rem;
+}
+.focus {
+    margin-top:1.05rem;
+    width: 100%;
+    position: relative;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.img {
+    position: absolute;
+    bottom:-0.1rem;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 0.37rem;
+}
+/*第二块*/
+.service {
+    margin-top: 1.05rem;
+}
+.bg-service {
+    background: url("../images/bg-img/bg-s.png");
+    background-size: cover;
+}
+.service-one {
+    text-align: center;
+    align-content: center;
+}
+.service-one h2 {
+    color: #005a9f;
+    font-size: 0.39rem;
+    margin-top: 0.70rem;
+}
+.service-one p {
+    line-height: 0.50rem;
+    font-size: 0.29rem;
+    margin-top: 0.40rem;
+}
+.box {
+    width: 100%;
+    margin:0.5rem 0.2rem 0;
+}
+.service-two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+.home {
+    width: 2.4rem;
+    background: #fff;
+    position: fixed;
+    top: 1.05rem;
+    right: 0;
+    z-index: 9999;
+    line-height: 0.60rem;
+    font-size: 0.29rem;
+    display: none;
+}
+.ul-list {
+    padding-left: 0.3rem;
+}
+.ul-list li a {
+    padding-left: 0.60rem;
+    color: #005a9f;
+}
+.ul-list li:nth-child(1) a {
+    background: url("../images/bg-img/home.png") no-repeat center left;
+}
+.ul-list li:nth-child(2) a {
+    background: url("../images/bg-img/fw.png") no-repeat center left;
+}
+.ul-list li:nth-child(3) a {
+    background: url("../images/bg-img/xm.png") no-repeat center left;
+}
+.ul-list li:nth-child(4) a {
+    background: url("../images/bg-img/hy.png") no-repeat center left;
+}
+.ul-list li:nth-child(5) a {
+    background: url("../images/bg-img/about.png") no-repeat center left;
+}
+.ul-list li:nth-child(6) a {
+    background: url("../images/bg-img/call-me.png") no-repeat center left;
+}
+/*第三块*/
+.bg-good {
+    background: url("../images/bg-img/bg-good.png");
+    background-size: cover;
+}
+.good {
+    margin-top: 1.05rem;
+}
+.good h2 {
+    margin: 0.40rem 0.20rem 0;
+    color: #e77817;
+    font-size: 0.39rem;
+    line-height: 0.90rem;
+    text-align: center;
+}
+.good p {
+    font-size: 0.29rem;
+    line-height: 0.53rem;
+    margin: 0 0.20rem;
+}
+.goo-img {
+    margin:1rem 0.20rem 0;
+}
+/*第四块*/
+.bg-example {
+    background: url("../images/bg-img/example.png");
+    background-size: cover;
+}
+.example {
+    margin-top: 1.05rem;
+}
+.example h2 {
+    font-size: 0.39rem;
+    line-height: 1.36rem;
+    text-align: center;
+    color:  #005a9f;
+}
+.example-img {
+    width: 2.68rem;
+    height: 3.31rem;
+    margin: 0.1rem;
+}
+.example-list {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.much {
+    text-align: center;
+}
+.much a {
+    display: inline-block;
+    height: 0.60rem;
+    width: 2rem;
+    background: #005a9f;
+    line-height: 0.60rem;
+    color: #fff;
+    margin-top: 0.30rem;
+    font-size: 0.27rem;
+}
+/*第五块*/
+.news {
+    background: url("../images/bg-img/new.png");
+    background-size: cover;
+}
+.news-n {
+    margin-top: 1.05rem;
+    /*position: relative;*/
+}
+.news-list h2{
+    font-size: 0.39rem;
+    line-height: 1.36rem;
+    color:  #e77817;
+    text-align: center;
+}
+.time {
+    display: flex;
+    margin:0 0.35rem;
+}
+.time-left {
+    width: 0.90rem;
+    height: 1.05rem;
+    background: #e77817;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 0 0.1rem;
+    margin: 0 0.1rem;
+
+}
+.time-left b {
+    font-size: 0.32rem;
+    color: #fff;
+}
+.time-left span {
+    color: #fff;
+}
+.time-right {
+    height: 1.05rem;
+    font-size: 0.25rem;
+    display: flex;
+    align-items: center;
+    line-height: 0.35rem;
+}
+.news-list h3 {
+    font-size: 0.30rem;
+    margin-left: 0.45rem;
+    line-height: 0.55rem;
+}
+.news-list ul li {
+    margin-top: 0.40rem;
+}
+.m a {
+    background: #e77817;
+}
+.footer {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    position: absolute;
+    bottom: 0.24rem;
+    font-size: 0.22rem;
+    line-height: 0.38rem;
+}

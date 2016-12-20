@@ -1,0 +1,188 @@
+body {
+    font-family: 微软雅黑;
+    position: relative;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/*!*头部的样式*!*/
+header {
+    width: 100%;
+    background: #fff;
+}
+.wrap {
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    width: 1200px;
+    margin:0 auto;
+    font-size: 22px;
+}
+/*!*logo样式*!*/
+.logo {
+    float:left;
+}
+.logo img {
+    vertical-align: middle;
+}
+/*!*导航菜单*!*/
+.list {
+    float: right;
+}
+.list ul {
+    overflow:hidden;
+}
+.list li {
+    float:left;
+    padding:0 30px;
+}
+/*hover效果*/
+.play-a {
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+.active-a{
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+/*图片*/
+.focus-img {
+    height: 500px;
+}
+.focus-img img {
+    height: 500px;
+    width: 100%;
+}
+/*内容部分*/
+.main {
+    width: 1000px;
+    margin: 70px auto;
+    height: 1000px;
+    text-align: center;
+}
+.main h2 {
+    font-size: 33px;
+    color: #4c4c4c;
+    line-height: 45px;
+}
+.main h3 {
+    font-size: 24px;
+    color: #4c4c4c;
+    line-height: 45px;
+}
+.main p {
+    line-height: 45px;
+    margin-bottom: 70px;
+ }
+.main-address {
+    border: 1px solid #dadada;
+    display: inline-block;
+    padding: 25px;
+}
+.main-form {
+    text-align: left;
+    margin-top: 60px;
+}
+.main-form label {
+    display: block;
+}
+.form-left {
+    float: left;
+    margin-right: 40px;
+}
+.form-left span {
+    color: red;
+    margin-left: 5px;
+}
+input {
+    width: 455px;
+    height: 38px;
+    font-size: 20px;
+    background: #ebebeb;
+    border: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+textarea {
+    width: 470px;
+    height: 263px;
+    background: #ebebeb;
+    border: none;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+button {
+    width: 221px;
+    height: 44px;
+    border: none;
+    background: #005a9f;
+    color: #fff;
+    font-size: 14px;
+    margin: 30px auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover {
+    opacity: 0.8;
+}
+/*联系方式*/
+.phone {
+    background: #272727;
+    color: #fff;
+    padding-top: 50px;
+    overflow: hidden;
+    border-bottom: 4px solid #323232;
+    padding-bottom: 20px;
+}
+.address {
+    width: 1200px;
+    margin: 0 auto;
+}
+.address li {
+    width: 245px;
+    float: left;
+    text-align: left;
+}
+.address-main {
+    margin-left: 100px;
+}
+.we-left {
+    margin-left: -35px;
+}
+.phone-list li {
+    line-height: 35px;
+}
+.phone-list > li:not(:first-child) {
+    margin-left: 150px;
+}
+.phone-list > li:last-child {
+    margin-top: 50px;
+}
+.address-list li:first-child {
+    list-style-image: url("../images/bg-img/envelope.png");
+}
+.address-list li:nth-child(2) {
+    list-style-image: url("../images/bg-img/phone.png");
+}
+.address-list li:last-child {
+    list-style-image:url("../images/bg-img/address.png") ;
+}
+/*底部*/
+.copy {
+    clear: left;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #808080;
+    text-align: center;
+}

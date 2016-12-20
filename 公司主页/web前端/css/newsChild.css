@@ -1,0 +1,178 @@
+body {
+    font-family: 微软雅黑;
+    position: relative;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/*!*头部的样式*!*/
+header {
+    width: 100%;
+    background: #fff;
+}
+.wrap {
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    width: 1200px;
+    margin:0 auto;
+    font-size: 22px;
+}
+/*!*logo样式*!*/
+.logo {
+    float:left;
+}
+.logo img {
+    vertical-align: middle;
+}
+/*!*导航菜单*!*/
+.list {
+    float: right;
+}
+.list ul {
+    overflow:hidden;
+}
+.list li {
+    float:left;
+    padding:0 30px;
+}
+/*hover效果*/
+.play-a {
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+.active-a{
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+/*图片*/
+.focus-img {
+    height: 500px;
+}
+.focus-img img {
+    height: 500px;
+    width: 100%;
+}
+/*内容部分*/
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+.main h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.main-list {
+    margin-bottom: 40px;
+}
+.main-list ul {
+    overflow: hidden;
+}
+.main-list span {
+    float: left;
+    padding: 5px 0;
+}
+.main-list li {
+    float: left;
+    padding: 5px 0 5px 25px;
+    margin-right: 10px;
+}
+.main-list li:first-child {
+    background: url("../images/bg-img/weixin.png") center left no-repeat ;
+}
+.main-list li:nth-child(2) {
+    background: url("../images/bg-img/copy.png") center left no-repeat;
+}
+.main-list li:nth-child(3) {
+    background: url("../images/bg-img/tx.png") center left no-repeat;
+}
+.main-list li:nth-child(4) {
+    background: url("../images/bg-img/xinlang.png") center left no-repeat;
+}
+.main-list li:nth-child(5) {
+    background: url("../images/bg-img/QQ.png") center left no-repeat;
+}
+.main-list li:nth-child(6) {
+    background: url("../images/bg-img/happy.png") center left no-repeat;
+}
+.main-list li:nth-child(7) {
+    background: url("../images/bg-img/pp.png") center left no-repeat;
+}
+.main-list li:nth-child(8) {
+    background: url("../images/bg-img/db.png") center left no-repeat;
+}
+.main-list li:nth-child(9) {
+    background: url("../images/bg-img/yi.png") center left no-repeat;
+}
+.main-list li:nth-child(10) {
+    background: url("../images/bg-img/tb.png") center left no-repeat;
+}
+.main p {
+    margin-top: 40px;
+    text-indent: 2em;
+    line-height: 25px;
+}
+.page {
+    margin: 40px 0;
+    text-align: center;
+}
+.page span {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/*联系方式*/
+.phone {
+    background: #272727;
+    color: #fff;
+    padding-top: 50px;
+    overflow: hidden;
+    border-bottom: 4px solid #323232;
+    padding-bottom: 20px;
+}
+.address {
+    width: 1200px;
+    margin: 0 auto;
+}
+.address li {
+    width: 245px;
+    float: left;
+    text-align: left;
+}
+.address-main {
+    margin-left: 100px;
+}
+.we-left {
+    margin-left: -35px;
+}
+.phone-list li {
+    line-height: 35px;
+}
+.phone-list > li:not(:first-child) {
+    margin-left: 150px;
+}
+.phone-list > li:last-child {
+    margin-top: 50px;
+}
+.address-list li:first-child {
+    list-style-image: url("../images/bg-img/envelope.png");
+}
+.address-list li:nth-child(2) {
+    list-style-image: url("../images/bg-img/phone.png");
+}
+.address-list li:last-child {
+    list-style-image:url("../images/bg-img/address.png") ;
+}
+/*底部*/
+.copy {
+    clear: left;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #808080;
+    text-align: center;
+}

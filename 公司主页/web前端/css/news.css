@@ -1,0 +1,181 @@
+body {
+    font-family: 微软雅黑;
+    position: relative;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/*!*头部的样式*!*/
+header {
+    width: 100%;
+    background: #fff;
+}
+.wrap {
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    width: 1200px;
+    margin:0 auto;
+    font-size: 22px;
+}
+/*!*logo样式*!*/
+.logo {
+    float:left;
+}
+.logo img {
+    vertical-align: middle;
+}
+/*!*导航菜单*!*/
+.list {
+    float: right;
+}
+.list ul {
+    overflow:hidden;
+}
+.list li {
+    float:left;
+    padding:0 30px;
+}
+/*hover效果*/
+.play-a {
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+.active-a{
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+/*图片*/
+.focus-img {
+    height: 500px;
+}
+.focus-img img {
+    height: 500px;
+    width: 100%;
+}
+/*内容部分*/
+.main {
+    width: 1000px;
+    margin: 60px auto;
+}
+.pi {
+    width: 710px;
+    line-height: 27px;
+}
+.main h2 {
+    margin-bottom: 30px;
+    font-size: 27px;
+}
+.list-right {
+    width: 805px;
+    height: 110px;
+}
+.main h5 {
+    float: left;
+    height: 110px;
+    width: 170px;
+    text-align: center;
+}
+.news-list {
+    margin-top: 45px;
+}
+.news-list li {
+    border-left: 1px dashed #666;
+    position: relative;
+    padding-top: 10px;
+    line-height: 25px;
+    width: 850px;
+}
+.news-list li h3 {
+    margin-bottom: 10px;
+}
+.news-list span {
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    background: #666;
+    position: absolute;
+    top: 0;
+    left: -5px;
+}
+.news-list li:hover {
+    background: #f7f5f6;
+}
+.news-list li:hover span {
+    background: #005a9f;
+}
+.news-list li:hover h3 {
+    color: #005a9f;
+}
+.page {
+    text-align: center;
+    cursor:default;
+    margin-top: 10px;
+}
+.page span {
+    padding: 5px 10px;
+}
+.play-click {
+    color: #fff;
+    background: #005a9f;
+}
+.page span:hover {
+    color: #fff;
+    background: #005a9f;
+}
+
+/*联系方式*/
+.phone {
+    background: #272727;
+    color: #fff;
+    padding-top: 50px;
+    overflow: hidden;
+    border-bottom: 4px solid #323232;
+    padding-bottom: 20px;
+}
+.address {
+    width: 1200px;
+    margin: 0 auto;
+}
+.address li {
+    width: 245px;
+    float: left;
+    text-align: left;
+}
+.address-main {
+    margin-left: 100px;
+}
+.we-left {
+    margin-left: -35px;
+}
+.phone-list li {
+    line-height: 35px;
+}
+.phone-list > li:not(:first-child) {
+    margin-left: 150px;
+}
+.phone-list > li:last-child {
+    margin-top: 50px;
+}
+.address-list li:first-child {
+    list-style-image: url("../images/bg-img/envelope.png");
+}
+.address-list li:nth-child(2) {
+    list-style-image: url("../images/bg-img/phone.png");
+}
+.address-list li:last-child {
+    list-style-image:url("../images/bg-img/address.png") ;
+}
+/*底部*/
+.copy {
+    clear: left;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #808080;
+    text-align: center;
+}

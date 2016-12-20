@@ -1,0 +1,342 @@
+body {
+    font-family: 微软雅黑;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/*!*头部的样式*!*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    width: 100%;
+    background: #fff;
+}
+.wrap {
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    width: 1200px;
+    margin:0 auto;
+    font-size: 22px;
+}
+/*!*logo样式*!*/
+.logo {
+    float:left;
+}
+.logo img {
+    vertical-align: middle;
+}
+    /*!*导航菜单*!*/
+.list {
+    float: right;
+}
+.list ul {
+    overflow:hidden;
+}
+.list li {
+    float:left;
+    padding:0 30px;
+}
+/*hover效果*/
+.play-a {
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+.active-a{
+    padding-bottom: 15px;
+    border-bottom: 5px solid #e77817;
+    color: #e77817;
+}
+/*焦点图*/
+.focus {
+    width: 100%;
+    position: relative;
+    margin: 80px auto 0;
+    height: 500px;
+}
+.hd {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%,0);
+}
+.hd li {
+    float: left;
+    padding: 0 5px;
+    background: #666;
+    margin: 0 10px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    height: 10px;
+}
+.hd li.on {
+    background: #269ABC;
+}
+.bd li {
+    vertical-align:middle;
+    zoom:1;
+    height: 500px;
+}
+.bd img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.focus .prev,
+.focus .next{
+    position:absolute;
+    left:0;
+    top:50%;
+    display:block;
+    width:32px;
+    height:40px;
+    background:url(../images/bg-img/slider-arrow.png) -100px 5px no-repeat;
+    filter:alpha(opacity=50);
+    opacity:0.5;
+}
+.focus .next{
+    left:auto;
+    right:3%;
+    background-position:8px 5px;
+}
+.focus .prev:hover,
+.focus .next:hover{
+    filter:alpha(opacity=100);
+    opacity:1;
+}
+.focus .prevStop{
+    display:none;
+}
+.focus .nextStop{
+    display:none;
+}
+/*服务介绍*/
+.main {
+    width: 1000px;
+    margin: 0 auto 100px;
+    padding-top: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+/*标题*/
+.service-style  {
+    color: #333;
+    display: inline-block;
+    padding: 25px 0;
+    border-bottom: 4px solid #666;
+    font-size: 32px;
+}
+/*简介*/
+.p1 {
+    width: 590px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 30px;
+
+}
+/*业务内容*/
+.main-content li{
+    float: left;
+    width: 310px;
+    height: 350px;
+    margin: 0 10px;
+    border: 1px solid #c9c9c9;
+}
+.main-content li h2 {
+    margin-bottom: 20px;
+}
+.main-content li p {
+    line-height: 30px;
+    text-align: center;
+
+}
+.img {
+    text-align: center;
+    padding: 50px 0;
+}
+/*我们的优势*/
+.wrap2 {
+    width: 100%;
+    background: url("../images/bg-img/bg-color.png") no-repeat;
+    overflow: hidden;
+}
+.batter {
+    width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.ys-img {
+    float: left;
+    margin-left: 50px;
+    z-index: 999999;
+}
+.ys-main {
+    font-size: 30px;
+    line-height: 70px;
+    margin: 100px 0 0 200px;
+    display: inline-block;
+}
+.ys-main li {
+    list-style-image: url("../images/bg-img/list-img.png");
+    color: #fff;
+}
+.ys-main li:nth-child(2) {
+    margin-left: 2em;
+}
+.ys-main li:nth-child(4) {
+    margin-left: 2em;
+}
+/*项目案例*/
+.example {
+    height: 794px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.example h2 {
+    font-size: 32px;
+    padding-bottom: 27px;
+    display: inline-block;
+    border-bottom: 4px solid #666;
+    margin: 100px auto 0;
+}
+.banner {
+    margin-top: 40px;
+}
+.banner ul {
+    margin: 0 auto;
+    overflow: hidden;
+    display:inline-block;
+
+    
+}
+.banner li {
+    float: left;
+    margin: 15px;
+    height: 390px;
+
+}
+.banner li img{
+    height: 100%;
+}
+.gd {
+    padding: 15px 45px;
+    display: inline-block;
+    background: #005a9f;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 45px;
+}
+/*行业动态*/
+.ht {
+    background: #f2f2f2;
+    text-align: center;
+}
+.ht h2 {
+    font-size: 32px;
+    padding-bottom: 27px;
+    display: inline-block;
+    border-bottom: 4px solid #666;
+    margin: 100px auto 0;
+}
+.ht-main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+}
+.ht-main h3 {
+    margin-bottom: 20px;
+}
+.ht-main li {
+    width: 450px;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.ht-main li:hover,.ht-main li:hover a {
+    color:#005a9f ;
+}
+.content-time,.content-main  {
+    float: left;
+}
+.content-time {
+    width: 60px;
+    text-align: center;
+    background: #005a9f;
+    color: #fff;
+    padding: 13px 7px;
+}
+.content-time h4 {
+    font-size: 21px;
+}
+.content-time p {
+    font-size: 11px;
+    line-height: 25px;
+}
+.content-main {
+    width: 360px;
+    margin-left:10px;
+    line-height: 25px;
+}
+.content-main a {
+    color: #727272;
+}
+/*联系方式*/
+.phone {
+    background: #272727;
+    color: #fff;
+    padding-top: 50px;
+    overflow: hidden;
+    border-bottom: 4px solid #323232;
+    padding-bottom: 20px;
+}
+.address {
+    width: 1200px;
+    margin: 0 auto;
+}
+.address li {
+    width: 245px;
+    float: left;
+    text-align: left;
+}
+.address-main {
+    margin-left: 100px;
+}
+.phone-list li {
+    line-height: 35px;
+}
+.we-left {
+    margin-left: -35px;
+}
+.phone-list > li:not(:first-child) {
+    margin-left: 150px;
+}
+.phone-list > li:last-child {
+    margin-top: 50px;
+}
+.address-list li:first-child {
+    list-style-image: url("../images/bg-img/envelope.png");
+}
+.address-list li:nth-child(2) {
+    list-style-image: url("../images/bg-img/phone.png");
+}
+.address-list li:last-child {
+    list-style-image:url("../images/bg-img/address.png") ;
+}
+底部
+.copy {
+   clear: left;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #808080;
+    text-align: center;
+}
