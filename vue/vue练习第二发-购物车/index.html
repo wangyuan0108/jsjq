@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vue.js"></script>
+    <script src="js/data.js"></script>
+</head>
+<body>
+    <div id="app" >
+        <div class="products">
+            <div class="item" >
+                <span>商品名称</span>
+                <span>商品单价</span>
+                <span>购买数量</span>
+                <span>操作</span>
+            </div>
+            <div class="item" v-for="item in data">
+                <span>{{ item.name }}</span>
+                <span>{{ item.price }}</span>
+                <span>
+                    <em @click="reduce($index)">-</em>
+                    {{item.count}}
+                    <em @click="add($index)">+</em>
+                </span>
+                <span>
+                    <i>移除</i>
+                </span>
+            </div>
+        </div>
+        <div class="info">
+            <label for="收件人："></label>
+            <input type="text">
+            <label for="收货地址："></label>
+            <input type="text">
+        </div>
+        <div class="result">
+            <h3>清单</h3>
+            商品总价：5000
+            <br>
+            收件人：d
+            <br>
+            收货地址：454566
+        </div>
+    </div>
+<script>
+     new Vue({
+        el:'#app',
+        data:{
+            data:data
+        },
+        methods:{
+            add: function(index) {
+                var item = this.data[index];
+                if (item.count == 10) {
+                    return false;
+                }
+                item.count++;
+            },
+            reduce: function(index) {
+                var item = this.data[index];
+                if (item.count == 1) {
+                    return false;
+                }
+                item.count--;
+            }
+        }
+    })
+</script>
+</body>
+</html>

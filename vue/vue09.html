@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<!--计算属性有依赖，有缓存，依赖没有改变，不会从新渲染。methods方法每次都会渲染一次。-->
+    <div id="example">
+        <p>我是：{{ message}}</p>
+        <p>这是啥啊：{{ reversedMessage() }}</p>
+    </div>
+    <script>
+        var vm = new Vue ({
+            el:'#example',
+            data:{
+                message:'hello'
+            },
+//            computed: {
+//                reversedMessage:function () {
+//                    return this.message.split('').reverse().join('')
+//                }
+//            }
+            methods:{
+                reversedMessage:function () {
+                    return this.message.split('').reverse().join('')
+                }
+            }
+        })
+    </script>
+</body>
+</html>
